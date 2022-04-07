@@ -1,0 +1,17 @@
+.wrapper {
+    width: 80%;
+}
+.question {
+    background: radial-gradient(#ffffff00, #ffed4f);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Architects Daughter", cursive;
+    font-size: 30px;
+}
+.option {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}

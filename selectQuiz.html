@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href="resources/css/main.css">
+    <link rel="stylesheet" href="resources/css/selectQuiz.css">
+  
+</head>
+<body>
+    <div class="main">
+        <div class="nav-bar">
+            <div class="nav-item"><a href="index.html">Home</a></div>
+            <div class="nav-item"><a href="selectQuiz.html">Start Quiz</a></div>
+            <div class="nav-item"><a href="results.html">Results</a></div>
+        </div>
+        <div class="wrapper">
+            <div class="heading">Select quiz type</div>
+            <div class="form-wrapper">
+                <form id="quizForm">
+                    <div class="input-group">
+                        <label for="">Number Of Questions</label>
+                        <input type="text" name="numOfQues" placeholder="maximum 100 questions">
+                    </div>
+                    <div class="input-group">
+                        <label for="">Category</label>
+                        <select name="category">
+                            <option value="0">Any</option>
+                            <option value="9">Genral Knowledge</option>
+                            <option value="10">Books</option>
+                            <option value="11">Films</option>
+                            <option value="12">Music</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Difficulty</label>
+                        <select name="difficulty">
+                            <option value="0">Any</option>
+                            <option value="easy">Easy</option>
+                            <option value="medium">Medium</option>
+                            <option value="hard">Hard</option>
+                        </select>
+                    </div>
+                    <div class="input-group" id="info">
+                    </div>
+                    <div>
+                        <input type="submit" class="play-button" value="Let the fun begin">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="resources/scripts/createQuiz.js"></script>
+</body>
+</html>
