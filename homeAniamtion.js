@@ -1,1 +1,0 @@
-gsap.to(".fadeIn", {opacity: 1, duration: 5, stagger: 0.2})
