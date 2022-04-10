@@ -7,14 +7,21 @@
 [Let's play!](https://monday-u-quiz-game.netlify.app/)
 
 ## Screen shots
+### Game background
 
-![Game background](file:///C:/Users/orgam/Desktop/monday.jpg)
+![Let's play!](https://www.linkpicture.com/q/monday_1.jpg) 
 
-![Game screenshot 2](screenShots/s2.png)
 
-![Game screenshot 2](screenShots/s3.png)
+### Game home page
 
-![Game screenshot 2](screenShots/s4.png)
+
+![Let's pla!](https://www.linkpicture.com/q/Game-home-page_1.jpg)
+### Game intermediate screen
+![Let's pl!](https://www.linkpicture.com/q/Game-intermediate-screen_1.jpg) 
+### Game quiz
+![Let's p!](https://www.linkpicture.com/q/Game-quiz_1.jpg)
+### Game result page
+![Let's p!](https://www.linkpicture.com/q/Game-result-page_1.jpg) 
 
 ## Built With
 
