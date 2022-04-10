@@ -4,11 +4,11 @@
 
 ## Live Demo
 
-[Live Demo Link](https://keshavmahawar.github.io/TriviaGame/index.html)
+[Let's play!](https://monday-u-quiz-game.netlify.app/)
 
 ## Screen shots
 
-![Game screenshot 1](screenShots/s1.png)
+![Game background](file:///C:/Users/orgam/Desktop/monday.jpg)
 
 ![Game screenshot 2](screenShots/s2.png)
 
@@ -24,34 +24,10 @@
 
 ## Getting Started
 
-**Just fork it and fell free to use it.**
+**fork&fun**
 
-Get a local copy on the and open the index.html file in the browser
+Get a local copy on your computer -> open the index.html file in the browser :)
 
-## Acknowledgments
+## Have fun!
 
--   API request is handled by using XHR requests
--   Quiz controller is built using js closures and maintain the current question state.
--   Questions fetched from API and results are stored in local storage
 
-## Author
-
-👤 **Keshav Mahawar**
-
--   Github: [@KeshavMahawar](https://github.com/KeshavMahawar)
--   Twitter: [@kesmahawar](https://twitter.com/kesmahawar)
--   Linkedin: [Keshav Mahawar](https://www.linkedin.com/in/keshav-m-191a8b131)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/arjun1237/Chitrakala/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
