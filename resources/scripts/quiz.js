@@ -1,3 +1,4 @@
+
 var wrapper
 var quizController = function( quiz ){
     checkState()
@@ -82,6 +83,7 @@ var quizController = function( quiz ){
 
 
 function init(){
+
     var storage = localStorage.getItem('quiz')
     document.innerText = "No QUIZ, Redirecting....."
     
@@ -118,7 +120,19 @@ function submitOption(){
 
 
 function setQuestion(){
-        
+
+    var sec = 5;
+    var time = setInterval(myTimer, 1000);
+
+    function myTimer() {
+        document.getElementById('timer').innerHTML = sec + "sec left";
+        sec--;
+        if (sec == -1) {
+            clearInterval(time);
+            alert("Time out!! :(");
+        }
+    }
+
     var question = quizController.getCurrentQuestion()
 
     wrapper.textContent = ""
