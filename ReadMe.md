@@ -1,4 +1,4 @@
-# Trivia Game
+# Quiz Game
 
 > Trivia game utilizing opentdb.com API
 
