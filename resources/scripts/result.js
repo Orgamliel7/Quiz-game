@@ -14,7 +14,27 @@ function displayScore(){
     var list = results.resultsList
     var lastQuiz = results.lastQuizQuestions
     
-    headingDiv.innerText = "Last quiz score : " + list[ list.length - 1 ].percentage +"%"
+    // headingDiv.innerText = "Last quiz score : " + list[ list.length - 1 ].percentage +"%"
+    if(list[ list.length - 1 ].percentage==100)
+    {
+        headingDiv.innerText = "You are PERFECT!! 🤩 \n  Last quiz score : " + list[ list.length - 1 ].percentage +"%"
+    }
+    else if(list[ list.length - 1 ].percentage>80&&list[ list.length - 1 ].percentage<100)
+    {
+        headingDiv.innerText = "You did an excellent job! 🌹 \n Last quiz score : " + list[ list.length - 1 ].percentage +"%"
+    }
+    else if(list[ list.length - 1 ].percentage>60&&list[ list.length - 1 ].percentage<80)
+    {
+        headingDiv.innerText = "You were pretty good! 💪 \n Last quiz score : " + list[ list.length - 1 ].percentage +"%"
+    }
+    else if(list[ list.length - 1 ].percentage>20&&list[ list.length - 1 ].percentage<60)
+    {
+        headingDiv.innerText = "You can do better! 🦸 \n Last quiz score : " + list[ list.length - 1 ].percentage +"%"
+    }
+    else
+    {
+        headingDiv.innerText = "Cause You had a bad day.. 😜 \n Last quiz score : " + list[ list.length - 1 ].percentage +"%"
+    }
     wrapper.append( headingDiv )
     
     lastQuiz.forEach( createQuestionDOM )
